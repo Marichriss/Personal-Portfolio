@@ -1,0 +1,517 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.Header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: #6d6d6d;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+#nav-bar ul {
+    list-style: none;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #1a1a1a;
+    transition: .5s;
+    font-size:16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    border: 2px solid #1a1a1a;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+#Introduction {
+    padding: 50px 40px;
+    text-align:center;
+    background-color: cadetblue;
+}
+
+#hello > h2{
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 30px;
+}
+
+#Onyinye > p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    line-height:15px;
+}
+
+#software > p {
+    font-family: myriad pro regular;
+    line-height: 30px;
+    color: #403e3e;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.hire input {
+    width: 135px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: cadetblue;
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.hire input:active {
+    transform: scale(1.1);
+}
+
+.resume input:active {
+    transform: scale(1.1);
+}
+
+.resume input {
+    width: 135px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: darkcyan;
+    border: none;
+    color: #373636;
+}
+
+
+#services-header > h2 {
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    line-height: 25px;
+}
+
+#front-end> h3 { 
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    text-align: center;
+}
+
+#ui-design > h3 {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    text-align: center;
+}
+
+#ux-design > h3 {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    text-align: center;
+}
+
+#front-end > p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 5px 10px
+}
+
+#ui-design > p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 5px 10px;
+}
+
+#ux-design > p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 5px 10px;
+}
+
+#front-end a {
+    text-decoration: none;
+    text-align: right;
+    color:#505050;
+    transition: .5s;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+}
+
+#ui-design a {
+    text-decoration: none;
+    text-align: right;
+    color:#505050;
+    transition: .5s;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+}
+
+#ux-design a {
+    text-decoration: none;
+    text-align: right;
+    color:#505050;
+    transition: .5s;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+}
+
+#Offerings {
+    background-color: darkcyan;
+    padding: 15px 15px;
+}
+
+#services-header > h2{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 10px;
+}
+
+#front-end, #ui-design, #ux-design {
+    width: 300px;
+    height: 350px;
+    background-color: cadetblue;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#Application {
+    padding: 35px 35px;
+    text-align:center;
+    background-color: cadetblue;
+}
+
+#Application-text > h2{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1a1a1a;
+}
+
+#Application-text > p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.Submit input {
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid #373636;
+}
+
+.Submit input:active {
+    transform: scale(1.1);
+}
+
+#Features {
+    padding: 20px 10px;
+    text-align:center;
+    background-color: darkcyan;
+}
+
+.Testimonial > h2 {
+    font-family: calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.Testimonial > p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#Test-img {
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+
+.names > p {
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 20px;
+}
+.img-icons a { 
+    width: 10px;
+    height: 10px;
+    background-color: cadetblue;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.img-icons {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icons a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+#tools-services {
+    background-color: darkcyan;
+    padding: 15px 15px;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 10px;
+}
+
+.language > h3 {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    text-align: center;
+}
+
+.dev-tools > h3 {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    text-align: center;
+}
+
+.project > h3 {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+    text-align: center;
+}
+
+.language, .dev-tools, .project {
+    width: 300px;
+    height: 350px;
+    background-color: cadetblue;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.language ul {
+    padding: 20px 20px;
+    margin: 30px 45px;
+}
+
+.dev-tools ul {
+    padding: 20px 20px;
+    margin: 30px 45px;
+}
+
+.project p {
+    padding: 20px 20px;
+    margin: 30px 45px;
+}
+
+.lang-link {
+    color: #1a1a1a;
+    font-size:16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+    margin: 10px;
+}
+
+.dev-link {
+    color: #1a1a1a;
+    font-size:16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+    margin: 10px;
+}
+
+p {
+    color: #1a1a1a;
+    font-size:16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+    margin: 10px;
+    line-height: 40px;
+}
+
+.link a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#footer {
+    background-color: #6d6d6d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Connect p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    color: #000000;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i {
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+.copyright {
+    color: #1a1a1a;
+    font-size: 15px;
+    padding: 10px 10px;
+
+}
+
+@media(max-width:760px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #nav-bar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Introduction-text {
+        top: 46%;   
+    }
+
+    .hire input {
+        margin: 5px;
+    } 
+
+    .resume input {
+        margin: 5px;
+    }
+
+    #Offerings {
+        padding: 2% 5% 0px 5%;
+    }
+
+    #Offerings {
+        height: auto;
+    }
+
+    .services{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tools {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+     
+
+}
+
