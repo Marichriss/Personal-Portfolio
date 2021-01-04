@@ -248,27 +248,19 @@ body {
     color: #1a1a1a;
 }
 
-#Application-text > p {
-    font-family: calibri;
-    font-weight: bold;
-    color: #1a1a1a;
-    font-size: 20px;
-    line-height: 15px;
-}
-
-.Submit input {
-    width: 200px;
-    height: 40px;
-    background-color: darkcyan;
-    outline: none;
-    font-size: 20px;
+.Contact input {
+    width: 135px;
+    height: 42px;
     border-radius: 10px;
     font-family: calibri;
     font-weight: bold;
+    font-size: 16px;
+    background-color: cadetblue;
     border: 2px solid #373636;
+    color: #373636;
 }
 
-.Submit input:active {
+.Contact input:active {
     transform: scale(1.1);
 }
 
@@ -377,9 +369,18 @@ body {
     margin: 30px 45px;
 }
 
-.project p {
+#pro-link {
     padding: 20px 20px;
     margin: 30px 45px;
+}
+
+#pro-link a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size:16px;
+    font-weight: 700;
+    font-family: myriad pro regular;
+    margin: 10px;
 }
 
 .lang-link {
@@ -396,20 +397,6 @@ body {
     font-weight: 700;
     font-family: myriad pro regular;
     margin: 10px;
-}
-
-p {
-    color: #1a1a1a;
-    font-size:16px;
-    font-weight: 700;
-    font-family: myriad pro regular;
-    margin: 10px;
-    line-height: 40px;
-}
-
-.link a {
-    text-decoration: none;
-    color: darkcyan;
 }
 
 #footer {
