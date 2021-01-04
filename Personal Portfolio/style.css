@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -289,9 +293,9 @@ body {
     line-height: 15px;
 }
 
-#Test-img {
-    width:70px;
-    height:70px;
+#Test-Img {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
